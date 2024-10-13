@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d335e8; /* Fondo celeste pastel */
+}
+
+.contenedor {
+    background-color: #ffffff; 
+    padding: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#resultado {
+    font-size: 20px; 
+    color: rgb(28, 28, 235); 
+    background-color: lightyellow; 
+    padding: 10px;
+    border: 2px solid black; 
+    border-radius: 5px; 
+    text-align: center; 
+    margin-top: 20px; 
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios-Version I</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+    <p>Tiene el error que solo elimina la fila de la tabla, no modifica el objeto usuarios. Cuando la tabla se recarga al agregar un usuario, vuelve a cargar el que fue eliminado</P>
+    <div class="contenedor">
+        <div>
+            <h1>TODOS LOS USUARIOS</h1>
+            <table  class="table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                        <th>Email</th>
+                        <!--<th ></th>-->
+                    </tr>
+                </thead>
+                <tbody id="tablaUsuarios"></tbody>
+            </table>
+        </div>
+        <div>    
+            <h2>AGREGAR USUARIO</h2>
+            <input type="text" id="inputNombre" placeholder="Nombre" >
+            <input type="text" id="inputApellido" placeholder="Apellido" >
+            <input type="text" id="inputEdad" placeholder="Edad" >
+            <input type="text" id="inputEmail" placeholder="Email" ><br>
+
+            <button id="agregar">Agregar</button>
+        </div>
+    </div>   
+
+
+
+    <script type="module" src="script.js"></script>
+
+       
+    </div>
+    
+</body>
+</html>
+
+
+
+
+ 

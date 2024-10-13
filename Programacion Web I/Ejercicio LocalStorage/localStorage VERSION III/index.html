@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalStorge</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <form id="formulario">
+    <h2>AGREGA USUARIO</h2>
+    <input type="text" id="inputNombre" placeholder="Nombre" />
+    <input type="text" id="inputApellido" placeholder="Apellido" />
+    <input type="number" id="inputEdad" placeholder="Edad" />
+    <input type="email" id="inputEmail" placeholder="Email" /><br>
+    <button type="button" id="agregar">Agregar</button>
+  </form>
+
+  <table id="tablaUsuarios">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+        <th>Email</th>
+        <th>Acción</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="script.js"></script> 
+</body>
+</html>
