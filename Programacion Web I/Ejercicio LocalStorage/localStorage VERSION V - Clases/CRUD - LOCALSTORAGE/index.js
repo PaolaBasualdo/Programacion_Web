@@ -21,7 +21,7 @@ function completarTabla() {
 
 completarTabla();// ejecuto la funcion, si hay algo en el local storage, #items se completa con nuevas instancias y se renderiza la tabla. Al cargar la página, el bloque estático en la clase Producto se ejecuta automáticamente. Si hay productos guardados en localStorage, se recuperan y se convierten en instancias de la clase Producto. Luego, estas instancias se almacenan en el array privado #items
 
-//evento guardar, podria haber refernciado el boton guardar y guardarlo en una variable botonGuardar = document.getElementById("gurdar"). El evento click asigna variables al contenido de cada input del formulario
+//evento guardar, podria haber referenciado el boton guardar y guardarlo en una variable botonGuardar = document.getElementById("guardar"). El evento click asigna variables al contenido de cada input del formulario
  
 document.getElementById("guardar").addEventListener("click", (event) => {
   //  Cuando se hace clic en el botón "guardar", se captura la información ingresada en los campos del formulario.

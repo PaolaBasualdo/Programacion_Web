@@ -1,0 +1,92 @@
+/* Estilo para la tabla */
+table {
+    width: 90%; /* Amplitud optimizada para el contenedor */
+    margin: 10px auto; /* Centrado horizontal y margen controlado */
+    border-collapse: collapse; /* Eliminamos los espacios entre bordes de celdas */
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para una sensación de elevación */
+}
+
+th, td {
+    border: 1px solid #9e8ad1; /* Bordes suaves y consistentes */
+    padding: 8px; /* Espaciado adecuado para una lectura clara */
+    text-align: center; /* Alineación uniforme de contenido */
+}
+
+th {
+    background-color: #d3cece; /* Color de fondo suave para el encabezado */
+    font-weight: bold; /* Tipografía destacada para el encabezado */
+}
+
+td {
+    color: #333333; /* Color de texto optimizado para mejor legibilidad */
+}
+
+tbody tr:hover {
+    background-color: #f3e8f9; /* Efecto hover para resaltar filas */
+}
+
+/* Estilo general para el cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Garantiza que todo comience desde la parte superior */
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0f7fa; /* Color de fondo suave y relajante */
+    font-family: Arial, sans-serif; /* Fuente sans-serif por simplicidad y claridad */
+}
+
+/* Estilo para formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3; /* Fondo ligero para contraste */
+    padding: 10px; /* Espaciado interno optimizado */
+    margin: 10px; /* Espaciado externo entre elementos */
+    border-radius: 10px; /* Bordes suaves para un diseño moderno */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve para enfoque */
+    width: 90%; /* Ancho dinámico que se adapta al contenedor */
+}
+
+/* Estilo para encabezados */
+h2 {
+    font-size: 20px; /* Tamaño de fuente optimizado para mantener legibilidad */
+    color: #8a2be2; /* Color que destaca el título */
+    margin-bottom: 15px; /* Espaciado controlado debajo del título */
+    text-align: center;
+    font-weight: bold; /* Tipografía robusta para impacto visual */
+}
+
+/* Estilo para inputs */
+input {
+    font-size: 14px; /* Tamaño de texto adecuado para formularios */
+    width: 95%; /* Ancho responsivo */
+    padding: 8px; /* Espaciado interno justo */
+    margin-bottom: 15px; /* Espaciado inferior entre elementos */
+    border: 2px solid #9e8ad1; /* Borde que mantiene coherencia visual */
+    border-radius: 5px; /* Bordes redondeados para un toque más suave */
+    box-sizing: border-box; /* Garantiza que el padding y el borde estén incluidos en el ancho total */
+    outline: none; /* Elimina el contorno estándar al enfocar */
+}
+
+/* Estilo para botones */
+button {
+    background-color: #9e8ad1; /* Color de fondo destacado */
+    color: white; /* Contraste adecuado en el texto */
+    padding: 8px 16px; /* Espaciado interno controlado */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados suaves */
+    font-size: 14px; /* Tamaño de fuente coherente con el resto del formulario */
+    cursor: pointer; /* Indica interactividad */
+    transition: background-color 0.3s ease; /* Efecto de transición suave al hacer hover */
+    margin-top: 15px; /* Espaciado superior controlado */
+}
+
+/* Estilo para hover en botones */
+button:hover {
+    background-color: #7f6eb3; /* Color de fondo ligeramente más oscuro al hacer hover */
+}

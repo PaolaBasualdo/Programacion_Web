@@ -1,0 +1,8 @@
+const productosInciales = [
+    {
+        codigo: "101",
+        nombre: "Producto 1",
+        precio: "100",
+        imagen: ""
+    },
+]

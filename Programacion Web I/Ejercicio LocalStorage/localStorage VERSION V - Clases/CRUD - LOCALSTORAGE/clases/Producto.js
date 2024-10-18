@@ -3,12 +3,14 @@ export default class Producto { //se define la clase Producto con tres propiedad
     codigo;
     nombre;
     precio;
+    //imagen;
     
     
     constructor(codigo, nombre, precio) {//el constructor de la clase para crear instancias de productos, recibe parametros y le asigna propiedades al objeto
         this.codigo = codigo;//this referencia a la instacia, el codigo del objeto es codigo
         this.nombre = nombre;// el nombre del objeto es nombre
         this.precio = precio;// el precio del objeto es precio
+        //this.imagen = imagen;
        
     }
     //propiedad privada
@@ -62,6 +64,7 @@ export default class Producto { //se define la clase Producto con tres propiedad
         if(producto){
             producto.nombre = nuevoNombre;
             producto.precio = nuevoPrecio;
+            //producto.imagen = nuevaImagen;
 
         }
         this.guardarEnLocalStorage();
