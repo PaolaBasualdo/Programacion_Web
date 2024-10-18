@@ -1,0 +1,42 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eaeff2; /* Color de fondo suave para armonizar con el resto */
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    background-color: #ffffff; /* Blanco para resaltar sobre el fondo */
+    padding: 50px;
+    border-radius: 10px; /* Bordes suaves para un diseño moderno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave y sutil */
+}
+
+/* Estilo para encabezados */
+h1 {
+    margin-bottom: 20px;
+    color: #2980b9; /* Azul marino para mantener la coherencia con los otros estilos */
+}
+
+/* Estilo para enlaces */
+a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: #2980b9; /* Azul marino para unificación visual */
+    border-radius: 5px; /* Bordes redondeados para suavidad */
+}
+
+a:hover {
+    background-color: #1c5984; /* Azul más oscuro en hover para un efecto de interactividad */
+}

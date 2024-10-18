@@ -2,12 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #f0f0f5; /* Fondo más suave */
+  background-color: #eaeff2; /* Fondo gris claro, suave y relajante */
+  text-align: center;
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #2c3e50; /* Azul oscuro para mejor contraste */
 }
 
 .contenedor-productos {
@@ -18,7 +19,7 @@ h1 {
 }
 
 .producto {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -30,7 +31,7 @@ h1 {
 .producto:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  background-color: #e3f2fd; /* Fondo azul claro al hacer hover */
+  background-color: #d1eaf5; /* Azul claro más suave al hacer hover */
 }
 
 .producto-imagen {
@@ -39,30 +40,43 @@ h1 {
   object-fit: cover;
   margin-bottom: 10px;
   border-radius: 5px;
-  border: 2px solid #27ae60; 
-
+  border: 2px solid #2980b9; /* Azul marino suave en lugar del verde */
 }
 
 .producto-detalle h3 {
-  color: #333;
+  color: #34495e; /* Color gris-azulado más oscuro para mayor contraste */
   margin: 10px 0;
   font-size: 16px;
 }
 
 .producto-codigo {
   font-weight: bold;
-  color: #555;
+  color: #7f8c8d; /* Gris medio para el código */
 }
 
 .producto-precio {
   font-size: 18px;
-  color: red !important;
+  color: #e74c3c !important; /* Rojo más suave para el precio */
   font-weight: bold;
 }
 
-
 .producto-descripcion {
   font-size: 14px;
-  color: #777;
+  color: #95a5a6; /* Gris claro para la descripción */
   margin-top: 10px;
+}
+
+a {
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  background-color: #2980b9; /* Azul marino suave */
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #1c5984; /* Azul más oscuro al hacer hover */
 }

@@ -27,6 +27,10 @@ document.getElementById("guardar").addEventListener("click", () => {
   let descripcion = document.getElementById("descripcion").value;
   let imagen = document.getElementById("imagen").value;
 
+  if (!codigo || !nombre || !precio || !descripcion || !imagen) {
+    alert("Por favor, completa todos los campos."); // Mensaje de advertencia
+    return; // Salir de la función si hay campos vacíos
+  }
   const productoExiste = Producto.mostrarArray().find(producto => producto.codigo === codigo);
   if (productoExiste) {
     Producto.editar(codigo, nombre, precio, descripcion, imagen);
