@@ -9,11 +9,11 @@ function cargarProductos() {
     div.classList.add("producto");
     div.innerHTML = `
       <div class="producto-detalle">
-        <img src="${producto.imagen}" alt="Imagen del Producto" class="producto-imagen">
+        <img src="${producto.imagen}" alt="Imagen del Producto" class="producto-imagen p-8 rounded-t-lg">
         <h3 class="producto-codigo">${producto.codigo}</h3>
         <h3 class="producto-nombre">${producto.nombre}</h3>
-        <h3 class="producto-precio">$ ${producto.precio}</h3>
-        <p class="producto-descripcion">${producto.descripcion}</p> 
+        <h3 class="producto-precio text-3xl font-bold text-gray-900 dark:text-white">$ ${producto.precio}</h3>
+        <p class="producto-descripcion text-xl font-semibold tracking-tight text-gray-900 dark:text-white">${producto.descripcion}</p> 
         
       </div>
     `;
